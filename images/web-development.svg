@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Responsive web design and code</title>
+  <desc id="desc">A desktop screen and phone display a web page beside colorful code symbols.</desc>
+  <rect width="640" height="360" fill="#e7f0eb"/>
+  <circle cx="85" cy="72" r="34" fill="#f0bd62"/>
+  <path d="M0 285h640v75H0z" fill="#c5d9cf"/>
+  <rect x="78" y="76" width="350" height="218" rx="13" fill="#172a3a"/>
+  <rect x="91" y="91" width="324" height="180" rx="5" fill="#fff"/>
+  <rect x="91" y="91" width="324" height="30" rx="5" fill="#236b70"/>
+  <circle cx="109" cy="106" r="4" fill="#f0bd62"/>
+  <circle cx="124" cy="106" r="4" fill="#fff"/>
+  <circle cx="139" cy="106" r="4" fill="#a9d0c1"/>
+  <rect x="112" y="141" width="119" height="81" rx="5" fill="#d9e9e2"/>
+  <path d="M248 147h135m-135 15h105m-105 15h121m-121 15h78" stroke="#91aaa0" stroke-width="7" stroke-linecap="round"/>
+  <rect x="251" y="231" width="76" height="19" rx="9" fill="#f0bd62"/>
+  <path d="M215 295v24m-69 4h207" stroke="#172a3a" stroke-width="10" stroke-linecap="round"/>
+  <rect x="453" y="127" width="105" height="173" rx="15" fill="#172a3a"/>
+  <rect x="462" y="145" width="87" height="136" rx="5" fill="#fff"/>
+  <rect x="462" y="145" width="87" height="22" rx="5" fill="#236b70"/>
+  <rect x="473" y="181" width="65" height="34" rx="4" fill="#d9e9e2"/>
+  <path d="M474 228h61m-61 12h47m-47 12h56" stroke="#91aaa0" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="505" cy="291" r="4" fill="#e7f0eb"/>
+  <path d="m570 105 13 13-13 13m-20-26-13 13 13 13" fill="none" stroke="#528879" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

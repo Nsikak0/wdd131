@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Learning at a laptop</title>
+  <desc id="desc">A person studies at a laptop beside a leafy plant.</desc>
+  <rect width="640" height="360" fill="#e7f0eb"/>
+  <circle cx="510" cy="72" r="34" fill="#f0bd62"/>
+  <path d="M0 270h640v90H0z" fill="#c5d9cf"/>
+  <path d="M55 270c30-62 34-104 22-145 39 24 54 70 28 145m-11-43c-3-51 15-88 47-112 3 51-7 87-47 112" fill="#528879"/>
+  <path d="M50 270h94l-10 50H60z" fill="#bf7953"/>
+  <circle cx="325" cy="112" r="46" fill="#b87552"/>
+  <path d="M278 112c4-48 83-67 99-13-23-11-34-19-48-34-10 21-27 35-51 47" fill="#243c4a"/>
+  <path d="M239 255c8-62 40-96 86-96s79 34 87 96l-12 15H250z" fill="#236b70"/>
+  <path d="M271 207l-57 58 17 16 67-48m87-26 48 49-18 16-62-40" fill="#b87552"/>
+  <rect x="194" y="245" width="268" height="16" rx="8" fill="#172a3a"/>
+  <path d="M224 260h209l-18 17H242z" fill="#415568"/>
+  <rect x="282" y="179" width="86" height="59" rx="5" fill="#f3eee2"/>
+  <path d="M295 194h59m-59 12h46m-46 12h34" stroke="#528879" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore Nigeria, from its vibrant cities to the granite hills and highlands of Taraba State.">
+    <meta name="author" content="Nsikak Asuquo">
+    <title>Nigeria | Country Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <h1>Nigeria</h1>
+    </header>
+    <main>
+        <section class="place-hero" aria-label="Nigeria country information and weather">
+            <section class="info-panel data-panel" aria-labelledby="data-heading">
+                <h2 id="data-heading">Data</h2>
+                <dl>
+                    <div><dt>Capital:</dt><dd>Abuja</dd></div>
+                    <div><dt>Population:</dt><dd>About 230 million</dd></div>
+                    <div><dt>Area:</dt><dd>923,768 km²</dd></div>
+                    <div><dt>Languages:</dt><dd>English and 500+ others</dd></div>
+                    <div><dt>Currency:</dt><dd>Nigerian naira (₦)</dd></div>
+                    <div><dt>Calling code:</dt><dd>+234</dd></div>
+                </dl>
+            </section>
+            <picture class="hero-picture">
+                <source
+                    type="image/webp"
+                    srcset="images/nigeria-hills-mobile.webp 960w, images/nigeria-hills-wide.webp 1280w"
+                    sizes="100vw">
+                <img
+                    src="images/nigeria-hills-wide.webp"
+                    alt="Granite hills rising above the savanna in Taraba State, Nigeria"
+                    width="1280"
+                    height="853"
+                    fetchpriority="high">
+            </picture>
+            <section class="info-panel weather-panel" aria-labelledby="weather-heading">
+                <h2 id="weather-heading">
+                    <img class="weather-icon-mobile" src="images/partly-cloudy.svg" alt="" aria-hidden="true">
+                    Weather
+                </h2>
+                <dl>
+                    <div><dt>Location:</dt><dd>Mambilla Plateau</dd></div>
+                    <div><dt>Conditions:</dt><dd>Cool and partly cloudy</dd></div>
+                    <div><dt>Temperature:</dt><dd><span id="temperature">8</span> °C</dd></div>
+                    <div><dt>Wind speed:</dt><dd><span id="wind-speed">10</span> km/h</dd></div>
+                    <div><dt>Wind chill:</dt><dd id="wind-chill">N/A</dd></div>
+                </dl>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Nsikak Asuquo | Nigeria</p>
+        <p id="lastModified"></p>
+        <p class="image-credit">
+            Landscape photo by <a href="https://commons.wikimedia.org/wiki/File:Granite_Hill_Landscape_in_Zing,_Taraba_State.jpg">MManzee</a>,
+            licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="A responsive gallery of notable LDS temples with filtering by age, size, and era."
+    >
+    <meta name="author" content="Nsikak Asuquo">
+    <title>Temple Album | Nsikak Asuquo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+  </head>
+  <body>
+    <header id="top">
+      <a class="site-title" href="filtered-temples.html">Temple Album</a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+      >
+        <span class="menu-icon" aria-hidden="true"></span>
+      </button>
+      <nav id="primary-nav" aria-label="Main navigation">
+        <a href="#temple-gallery" data-filter="home">Home</a>
+        <a href="#temple-gallery" data-filter="old">Old</a>
+        <a href="#temple-gallery" data-filter="new">New</a>
+        <a href="#temple-gallery" data-filter="large">Large</a>
+        <a href="#temple-gallery" data-filter="small">Small</a>
+      </nav>
+    </header>
+
+    <main id="temple-gallery">
+      <h1>Temple Album</h1>
+      <p id="gallery-note" class="gallery-note">Showing all temples.</p>
+      <div id="temple-grid" class="temple-grid" aria-live="polite"></div>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="currentyear"></span> Nsikak Asuquo | Nigeria</p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>
